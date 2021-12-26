@@ -1,0 +1,83 @@
+.Wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 100%;
+    padding: 0 25px 40px;
+}
+
+.Head {
+    margin: 0 -25px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 32px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.HeadTitle {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+.Table {
+    width: 100%;
+
+    th {
+        text-align: left;
+        font-weight: 400;
+        font-size: 20px;
+        padding-bottom: 12px;
+
+        &:not(:first-child) {
+            text-align: center;
+        }
+    }
+
+    td {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 4px 10px;
+        height: 73px;
+
+        a {
+            font-size: 25px;
+            color: inherit;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    tr:nth-child(2n + 1) {
+        td {
+            background-color: #f1f1f1;
+        }
+    }
+
+    td div {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        max-height: 70px;
+    }
+}
+
+.Checkbox {
+    cursor: default;
+}
+
+.Actions {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: #000;
+    button {
+        &:hover {
+            color: #6058be;
+        }
+    }
+}
