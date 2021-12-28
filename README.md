@@ -1,6 +1,9 @@
 # ProRadio
 Стриминговое приложение для прослушивания радио
 
+# Frontend
+Разработан с использованием js библиотеки React.
+
 # Макеты приложений
 [Web](https://www.figma.com/proto/c8IVlrRqVhSjJ5FQoX2Ojb/ProRadio?node-id=27%3A32&scaling=min-zoom&page-id=27%3A31&starting-point-node-id=27%3A32)
 
