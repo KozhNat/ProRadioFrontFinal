@@ -7,6 +7,8 @@ import React, {
 } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+import { NoApp } from './pages/no-app';
+import { Tests } from './pages/tests';
 import { StationList } from './pages/station-list';
 import { Station } from './pages/station';
 import { Layout } from './layout';
@@ -88,6 +90,7 @@ ReactDOM.render(
         <BrowserRouter>
             <App>
                 <Routes>
+                    <Route path="/no-app" element={<NoApp />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/" element={<Layout />}>
                         <Route index element={<StationList />} />
@@ -96,6 +99,7 @@ ReactDOM.render(
                             path="/station/edit/:stationId"
                             element={<Station />}
                         />
+                        <Route path="/tests" element={<Tests />} />
                     </Route>
                 </Routes>
             </App>

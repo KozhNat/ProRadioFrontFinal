@@ -37,6 +37,24 @@ export const Layout = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link className={styles.SidebarButton} to="/tests">
+                            <svg
+                                width="24"
+                                height="15"
+                                viewBox="0 0 12 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M0 0V3H4.71429V15H7.28571V3H12V0H0Z"
+                                    fill="black"
+                                />
+                            </svg>
+
+                            <span>A/B тестирование</span>
+                        </Link>
+                    </li>
+                    <li>
                         <button
                             onClick={logout}
                             className={styles.SidebarButton}

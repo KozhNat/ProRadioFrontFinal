@@ -1,0 +1,33 @@
+.Wrapper {
+    background-color: #fff;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Text {
+    color: #6058be;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.Link {
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    height: 42px;
+    background: #6058be;
+    border-radius: 20px;
+    padding: 0 27px;
+    color: #fff;
+}

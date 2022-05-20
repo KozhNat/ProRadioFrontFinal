@@ -1,0 +1,82 @@
+.Wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    min-height: 100%;
+    padding: 0 25px 40px;
+}
+
+.Header {
+    margin: 0 -25px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 32px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.HeaderTitle {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+.Subtitle {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.Input {
+    padding: 0 20px;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.ConversionGroup {
+    margin-bottom: 28px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.ConversionName {
+    font-size: 28px;
+    margin-right: 60px;
+}
+
+.ConversionInput {
+    width: 120px;
+}
+
+.Table {
+    margin-top: 45px;
+    margin-bottom: 80px;
+    width: 100%;
+
+    td {
+        padding: 10px;
+    }
+}
+
+.TableRowH {
+    font-size: 28px;
+}
+
+.TableCellWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TableCell {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid;
+}
+
+.LastCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
