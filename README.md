@@ -12,11 +12,11 @@
 # Документация
 **Диаграмма последовательностей**
 
-![Image alt]([https://github.com/Seradskya/ProRadioBack/blob/master/Диагр.jpg](https://drive.google.com/drive/folders/1TX_KH4fH-SL6eQmQ0148B2Q0Wa7usUto))
+![Image alt](https://github.com/KozhNat/ProRadioFrontFinal/blob/master/Диаграмма%20последовательностей%202.png)
 
 **Use Case**
 
-![Image alt](https://github.com/Seradskya/ProRadioBack/blob/master/Use%20case.jpg)
+![Image alt]()
 
 # Команда разработчиков
 Дунаева Елизавета
