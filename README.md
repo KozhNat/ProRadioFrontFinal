@@ -16,7 +16,7 @@
 
 **Use Case**
 
-![Image alt]()
+![Image alt](https://github.com/KozhNat/ProRadioFrontFinal/blob/master/UseCase2.png)
 
 # Команда разработчиков
 Дунаева Елизавета
