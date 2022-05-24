@@ -12,7 +12,7 @@
 # Документация
 **Диаграмма последовательностей**
 
-![Image alt](https://github.com/Seradskya/ProRadioBack/blob/master/Диагр.jpg)
+![Image alt]([https://github.com/Seradskya/ProRadioBack/blob/master/Диагр.jpg](https://drive.google.com/drive/folders/1TX_KH4fH-SL6eQmQ0148B2Q0Wa7usUto))
 
 **Use Case**
 
